@@ -1,0 +1,10 @@
+### 
+GET http://localhost:3030/todos
+
+###
+POST http://localhost:3030/todo/new
+Content-Type: application/json
+
+{
+    "text": "test request no 2"
+}
