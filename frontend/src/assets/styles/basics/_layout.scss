@@ -1,0 +1,18 @@
+.app-general {
+    height: calc(100vh);
+    background-color: $bgrclr;
+    display: grid;
+    grid-template-rows: 1fr 0fr 6fr;
+    > * {
+        grid-column: 2;
+    }
+
+    > .full {
+        grid-column: 1 / -1;
+    }
+
+    grid-template-columns:
+        1fr
+        minmax(150px, auto)
+        1fr;
+}

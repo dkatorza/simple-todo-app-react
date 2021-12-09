@@ -1,0 +1,58 @@
+.todos{
+    display: flex;
+    flex-direction: column;
+}
+
+.todo {
+    background-color: $clr4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem;
+    max-width: 457px;
+    min-height: 65px;
+    max-height: 65px;
+    margin-bottom: 5px;
+    
+    &.completed {
+        background-color: $clr5;
+
+        & >.checkbox {
+            background-color: $clr5;
+        }
+
+        & >.text {
+            text-decoration: line-through;
+        }
+    }
+
+    .text {
+        width: 440px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $clr3;
+    }
+
+    .delete-todo{
+        width: 25px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        background-color: $clr3;
+        color: $clr6;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    .checkbox{
+        width: 25px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        background-color: $clr3;
+        margin-right: 10px;
+        transition: 0.4s;
+    }
+}
+
