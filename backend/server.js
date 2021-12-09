@@ -31,16 +31,21 @@ app.post('/todo/new', (req, res) => {
     res.json(todo)
 })
 
-app.delete('/todo/delete/:id', async(req, res)=> {
-    const result = await Todo.findByIdAndDelete(req.params.id)
+app.delete('/todo/delete/:id', async (req, res) => {
+    try {
+        const result = await Todo.findByIdAndDelete(req.params.id)
+        res.json(result)
+    }
+    catch(e){
+        console.log(err);
+    }
 
-    res.json(result)
+    
 })
 
-app.put('/todo/complete/:id', async (req, res) => {
+app.get('/todo/complete/:id', async (req, res) => {
     const todo = await Todo.findById(req.params.id)
     todo.complete = !todo.complete
-
     todo.save()
     res.json(todo)
 })
