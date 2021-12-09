@@ -8,3 +8,9 @@ Content-Type: application/json
 {
     "text": "test request no 2"
 }
+
+###
+DELETE http://localhost:3030/todo/delete/61b1bacfd526c7bbf8d6651b
+
+###
+PUT http://localhost:3030/todo/complete/61b1bafad526c7bbf8d6651f
