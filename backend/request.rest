@@ -1,17 +1,25 @@
 ### 
-GET http://localhost:3030/api/todo
+GET http://localhost:3030/api/todo/
 
 ###
 POST http://localhost:3030/api/todo
 Content-Type: application/json
 
 {
-    "text": "test request no 15"
+    "text": "test request no 18"
 }
 
 ###
-DELETE http://localhost:3030/todo/delete/61b1bacfd526c7bbf8d6651b
+DELETE http://localhost:3030/api/todo/61b2fe3c7682396e113ac2e7
 
 ###
-PUT http://localhost:3030/todo/complete/61b1bafad526c7bbf8d6651f
+PUT  http://localhost:3030/api/todo/61b2fe377682396e113ac2e5 HTTP/1.1
 
+Content-Type: application/json
+
+{   
+    "_id": "61b2fe377682396e113ac2e5",
+    "text" : "Test update",
+    "complete" : true,
+    "timestamp" : "1639120343491",
+}

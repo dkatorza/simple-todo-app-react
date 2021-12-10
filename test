@@ -52,7 +52,7 @@ function App() {
           <div
             className={'todo ' + (todo.complete ? 'completed' : '')}
             key={todo._id}
-            >
+            onClick={() => completeTodo(todo._id)}>
             <div className='checkbox'></div>
             <div className='text'>{todo.text}</div>
             {/* <div className='delete-todo' onClick={(ev) => deleteTodo(ev, todo._id)}>x</div> */}

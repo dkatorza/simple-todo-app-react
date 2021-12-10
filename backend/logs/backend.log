@@ -157,3 +157,75 @@
 10/12/2021, 8:55:33 - INFO - Server is running on port: 3030 
 10/12/2021, 8:58:02 - INFO - Server is running on port: 3030 
 10/12/2021, 8:59:48 - INFO - Server is running on port: 3030 
+10/12/2021, 9:00:51 - INFO - Server is running on port: 3030 
+10/12/2021, 9:05:24 - INFO - Server is running on port: 3030 
+10/12/2021, 9:09:00 - INFO - Server is running on port: 3030 
+10/12/2021, 9:10:02 - ERROR - Failed to get todo | TypeError: todoService.getById is not a function 
+10/12/2021, 9:10:18 - INFO - Server is running on port: 3030 
+10/12/2021, 9:10:53 - INFO - Server is running on port: 3030 
+10/12/2021, 9:11:38 - INFO - Server is running on port: 3030 
+10/12/2021, 9:12:07 - INFO - Server is running on port: 3030 
+10/12/2021, 9:12:23 - INFO - Server is running on port: 3030 
+10/12/2021, 9:16:03 - INFO - Server is running on port: 3030 
+10/12/2021, 9:17:42 - INFO - Server is running on port: 3030 
+10/12/2021, 9:20:06 - INFO - Server is running on port: 3030 
+10/12/2021, 9:20:55 - INFO - Server is running on port: 3030 
+10/12/2021, 9:22:48 - INFO - Server is running on port: 3030 
+10/12/2021, 9:22:54 - INFO - Server is running on port: 3030 
+10/12/2021, 9:28:15 - INFO - Server is running on port: 3030 
+10/12/2021, 9:28:47 - INFO - Server is running on port: 3030 
+10/12/2021, 9:30:49 - INFO - Server is running on port: 3030 
+10/12/2021, 9:38:34 - INFO - Server is running on port: 3030 
+10/12/2021, 9:38:55 - ERROR - cannot update todo undefined | TypeError: Cannot read property 'update' of null 
+10/12/2021, 9:38:55 - ERROR - Failed to update todo | TypeError: Cannot read property 'update' of null 
+10/12/2021, 9:39:33 - INFO - Server is running on port: 3030 
+10/12/2021, 9:39:37 - ERROR - cannot update todo undefined | TypeError: Cannot read property 'update' of null 
+10/12/2021, 9:39:37 - ERROR - Failed to update todo | TypeError: Cannot read property 'update' of null 
+10/12/2021, 9:40:49 - INFO - Server is running on port: 3030 
+10/12/2021, 9:41:44 - INFO - Server is running on port: 3030 
+10/12/2021, 9:44:51 - INFO - Server is running on port: 3030 
+10/12/2021, 9:45:33 - INFO - Server is running on port: 3030 
+10/12/2021, 9:46:56 - INFO - Server is running on port: 3030 
+10/12/2021, 9:48:39 - INFO - Server is running on port: 3030 
+10/12/2021, 9:48:55 - INFO - Server is running on port: 3030 
+10/12/2021, 9:49:21 - INFO - Server is running on port: 3030 
+10/12/2021, 9:50:09 - INFO - Server is running on port: 3030 
+10/12/2021, 9:50:13 - INFO - Server is running on port: 3030 
+10/12/2021, 9:53:47 - INFO - Server is running on port: 3030 
+10/12/2021, 9:59:49 - INFO - Server is running on port: 3030 
+10/12/2021, 10:02:59 - INFO - Server is running on port: 3030 
+10/12/2021, 10:03:28 - INFO - Server is running on port: 3030 
+10/12/2021, 10:03:33 - INFO - Server is running on port: 3030 
+10/12/2021, 10:03:49 - INFO - Server is running on port: 3030 
+10/12/2021, 10:07:27 - INFO - Server is running on port: 3030 
+10/12/2021, 10:07:31 - INFO - Server is running on port: 3030 
+10/12/2021, 10:08:03 - INFO - Server is running on port: 3030 
+10/12/2021, 10:26:06 - INFO - Server is running on port: 3030 
+10/12/2021, 10:37:18 - INFO - Server is running on port: 3030 
+10/12/2021, 10:38:15 - INFO - Server is running on port: 3030 
+10/12/2021, 10:47:01 - INFO - Server is running on port: 3030 
+10/12/2021, 10:48:31 - INFO - Server is running on port: 3030 
+10/12/2021, 10:49:01 - INFO - Server is running on port: 3030 
+10/12/2021, 10:49:33 - INFO - Server is running on port: 3030 
+10/12/2021, 10:50:31 - INFO - Server is running on port: 3030 
+10/12/2021, 10:50:34 - ERROR - cannot update todo undefined | ReferenceError: complete is not defined 
+10/12/2021, 10:50:34 - ERROR - Failed to update todo | ReferenceError: complete is not defined 
+10/12/2021, 10:51:06 - INFO - Server is running on port: 3030 
+10/12/2021, 10:51:07 - ERROR - cannot update todo undefined | CastError: Cast to Boolean failed for value "!complete" (type string) at path "complete" 
+10/12/2021, 10:51:07 - ERROR - Failed to update todo | CastError: Cast to Boolean failed for value "!complete" (type string) at path "complete" 
+10/12/2021, 10:52:18 - INFO - Server is running on port: 3030 
+10/12/2021, 10:52:59 - INFO - Server is running on port: 3030 
+10/12/2021, 10:53:02 - ERROR - cannot update todo undefined | CastError: Cast to ObjectId failed for value "{}" (type Object) at path "_id" for model "Todo" 
+10/12/2021, 10:53:02 - ERROR - Failed to update todo | CastError: Cast to ObjectId failed for value "{}" (type Object) at path "_id" for model "Todo" 
+10/12/2021, 10:54:18 - ERROR - cannot update todo undefined | CastError: Cast to ObjectId failed for value "{}" (type Object) at path "_id" for model "Todo" 
+10/12/2021, 10:54:18 - ERROR - Failed to update todo | CastError: Cast to ObjectId failed for value "{}" (type Object) at path "_id" for model "Todo" 
+10/12/2021, 10:54:26 - INFO - Server is running on port: 3030 
+10/12/2021, 10:54:29 - ERROR - cannot update todo undefined | CastError: Cast to ObjectId failed for value "{ id: '61b2fe377682396e113ac2e5' }" (type Object) at path "_id" for model "Todo" 
+10/12/2021, 10:54:29 - ERROR - Failed to update todo | CastError: Cast to ObjectId failed for value "{ id: '61b2fe377682396e113ac2e5' }" (type Object) at path "_id" for model "Todo" 
+10/12/2021, 10:54:42 - INFO - Server is running on port: 3030 
+10/12/2021, 10:55:18 - INFO - Server is running on port: 3030 
+10/12/2021, 10:55:34 - INFO - Server is running on port: 3030 
+10/12/2021, 10:55:45 - INFO - Server is running on port: 3030 
+10/12/2021, 10:57:29 - INFO - Server is running on port: 3030 
+10/12/2021, 10:59:29 - INFO - Server is running on port: 3030 
+10/12/2021, 15:37:48 - INFO - Server is running on port: 3030 

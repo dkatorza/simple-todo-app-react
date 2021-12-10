@@ -1,12 +1,13 @@
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 const Todo = require('../../models/Todo')
+const { set } = require('mongoose')
 module.exports = {
-    // remove,
+    remove,
     query,
-    // getById,
+    getById,
     add,
-    // update,
+    update
 }
 
 
@@ -16,6 +17,17 @@ async function query() {
         return todos
     } catch (err) {
         logger.error('cannot find todos', err)
+        throw err
+    }
+}
+
+async function getById(todoId) {
+    console.log('todoId',todoId);
+    try {
+        const todo = await Todo.findById(todoId)
+        return todo
+    } catch (err) {
+        logger.error(`while finding todo ${todoId}`, err)
         throw err
     }
 }
@@ -32,3 +44,34 @@ async function add(newTodo) {
         throw err
     }
 }
+
+async function update(todo) {
+    console.log('todo888',todo);
+    try {
+        const updatedTodo = await Todo.findByIdAndUpdate(todo._id,{$set:{...todo}})
+        return updatedTodo
+    } catch (err) {
+        logger.error(`cannot update todo ${todo._Id}`, err)
+        throw err
+    }
+}
+
+// app.get('/todo/complete/:id', async (req, res) => {
+//     const todo = await Todo.findById(req.params.id)
+//     todo.complete = !todo.complete
+//     todo.save()
+//     res.json(todo)
+// })
+
+
+
+async function remove(todoId) {
+    try {
+        const result = await Todo.findByIdAndDelete(todoId)
+        return result
+    } catch (err) {
+        logger.error(`cannot remove Todo ${todoId}`, err)
+        throw err
+    }
+}
+

@@ -1,16 +1,16 @@
 const express = require('express')
-const { getTodos,addTodo } = require('./todo.controller')
+const { getTodos,addTodo,getTodoById,updateTodo,removeTodo} = require('./todo.controller')
 const { log } = require('../../middlewares/logger.middleware')
 const router = express.Router()
 
 
 router.get('/',getTodos)
-
-
-// router.get('/todos/:id', getTodoById)
+router.get('/:id', getTodoById)
 router.post('/', addTodo)
-// router.put('/todo/complete/:id', updateTodo)
-// router.delete('/todo/delete/:id', removeTodo)
+router.put('/:id',updateTodo)
+router.delete('/:id', removeTodo)
+
+
 
 // app.get('/todos', async (req, res) => {
 //     const todos = await Todo.find()
