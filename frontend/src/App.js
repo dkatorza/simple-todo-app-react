@@ -1,42 +1,38 @@
 import { useState, useEffect } from 'react'
-import {todoService} from './services/todo.service'
+import { TodoAdd } from './cmps/TodoAdd'
+import { todoService } from './services/todo.service'
+
 function App() {
 
   const [todos, setTodos] = useState([])
   const [popupActive, setpopupActive] = useState(false)
-  const [newTodo, setNewTodo] = useState('')
 
   useEffect(() => {
     getTodos()
   }, [])
 
   const getTodos = async () => {
-   const todos = await todoService.query()
-   setTodos(todos)
+    const todos = await todoService.query()
+    setTodos(todos)
   }
 
-  // const completeTodo = async (id) => {
-  //   const data = await fetch(API_BASE + `/todo/complete/${id}`)
-  //     .then(res => res.json())
+  const completeTodo = async (todo) => {
+    todo.complete = !todo.complete
+    const updatedTodo =  await todoService.save(todo)
+    // setTodos([...todos, {todo:updatedTodo}])
+    getTodos()
+  }
 
-  //   setTodos(todos => todos.map(todo => {
-  //     if (todo._id === data._id) {
-  //       todo.complete = data.complete
-  //     }
-  //     return todo
-  //   }))
-  // }
+  const removeTodo = async (ev, id) => {
+    ev.stopPropagation()
+    const data = await todoService.remove(id)
+    setTodos(todos => todos.filter(todo => todo._id !== data._id))
+  }
 
-  // const deleteTodo = async (ev, id) => {
-  //   ev.stopPropagation()
-  //   const data = await fetch(API_BASE + "/todo/delete/" + id, {
-  //     method: "DELETE"
-
-  //   }).then(res => res.json())
-  //     .catch(err => console.log('err', err))
-  //   setTodos(todos => todos.filter(todo => todo._id !== data._id))
-  // }
-
+  const addTodo = async (todo) => {
+    const newTodo = await todoService.save(todo)
+    setTodos([...todos, newTodo])
+  }
 
   return (
     <div className="app-general">
@@ -44,7 +40,7 @@ function App() {
         <h1>Toodlidoo</h1>
       </div>
       <div className="title">
-        <h4>Your Tasks</h4>
+        <TodoAdd addTodo={addTodo} />
       </div>
 
       <div className="todos">
@@ -52,10 +48,11 @@ function App() {
           <div
             className={'todo ' + (todo.complete ? 'completed' : '')}
             key={todo._id}
-            >
+            onClick={() => completeTodo(todo)}
+          >
             <div className='checkbox'></div>
             <div className='text'>{todo.text}</div>
-            {/* <div className='delete-todo' onClick={(ev) => deleteTodo(ev, todo._id)}>x</div> */}
+            <div className='delete-todo' onClick={(ev) => removeTodo(ev, todo._id)}>x</div>
           </div>
         ))}
       </div>

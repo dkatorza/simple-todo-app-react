@@ -9,9 +9,9 @@ export const todoService = {
 
 
 
-async function query (filterBy) {
-   const filter = await httpService.get('todo', filterBy )
-   return filter
+async function query(filterBy) {
+    const filter = await httpService.get('todo', filterBy)
+    return filter
 }
 
 
@@ -25,7 +25,19 @@ async function remove(todoId) {
 }
 
 
-async function save(todo = null) {
-    return await httpService.post('todo', todo)
-}
+async function save(todo) {
+    if (todo._id) {
+        try {
+            return await httpService.put(`todo/${todo._id}`, todo)
+        } catch (err) {
+            throw err
+        }
+    } else {
+        try {
+            return await httpService.post('todo', todo)
+        } catch (err) {
+            throw err
+        }
+    }
 
+}

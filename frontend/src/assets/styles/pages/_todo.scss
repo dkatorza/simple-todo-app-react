@@ -1,4 +1,4 @@
-.todos{
+.todos {
     display: flex;
     flex-direction: column;
 }
@@ -15,18 +15,18 @@
     max-height: 65px;
     margin-bottom: 5px;
 
-    &:hover{
-        background-color: $clr4a
+    &:hover {
+        background-color: $clr4a;
     }
-    
+
     &.completed {
         background-color: $clr5;
 
-        & >.checkbox {
+        & > .checkbox {
             background-color: $clr5;
         }
 
-        & >.text {
+        & > .text {
             text-decoration: line-through;
         }
     }
@@ -38,7 +38,7 @@
         color: $clr3;
     }
 
-    .delete-todo{
+    .delete-todo {
         width: 25px;
         height: 20px;
         display: flex;
@@ -47,9 +47,16 @@
         color: $clr6;
         font-weight: 600;
         margin-left: 10px;
+
+        &:hover {
+            transition: 0.1s;
+            width: 27px;
+            height: 22px;
+            font-size: rem(18px);
+        }
     }
 
-    .checkbox{
+    .checkbox {
         width: 25px;
         height: 20px;
         display: flex;
@@ -59,4 +66,3 @@
         transition: 0.4s;
     }
 }
-
