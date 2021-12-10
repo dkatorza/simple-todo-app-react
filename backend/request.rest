@@ -1,8 +1,8 @@
 ### 
-GET http://localhost:3030/todos
+GET http://localhost:3030/api/todo
 
 ###
-POST http://localhost:3030/todo/new
+POST http://localhost:3030/api/todo
 Content-Type: application/json
 
 {

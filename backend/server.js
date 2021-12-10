@@ -1,53 +1,51 @@
+// const cookieParser = require('cookie-parser')
 const express = require('express')
-const mongoose = require('mongoose')
 const cors = require('cors')
+const path = require('path')
+const expressSession = require('express-session')
 
 const app = express()
+const http = require('http').createServer(app)
+
+// Express App Config
+const session = expressSession({
+    secret: 'shisha2015',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false }
+})
 
 app.use(express.json())
-app.use(cors());
-
-mongoose.connect("mongodb://127.0.0.1:27017/todoDB", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-
-}).then(() => console.log("connected to DB"))
-    .catch(console.error)
+app.use(session)
+app.use(express.static('public'))
 
 
-const Todo = require('./models/Todo')
-
-app.get('/todos', async (req, res) => {
-    const todos = await Todo.find()
-    res.json(todos)
-})
-
-app.post('/todo/new', (req, res) => {
-    const todo = new Todo({
-        text: req.body.text
-    })
-
-    todo.save()
-    res.json(todo)
-})
-
-app.delete('/todo/delete/:id', async (req, res) => {
-    try {
-        const result = await Todo.findByIdAndDelete(req.params.id)
-        res.json(result)
+if (process.env.NODE_ENV === 'production') {
+    // Express serve static files on production environment
+    app.use(express.static(path.resolve(__dirname, 'public')))
+} else {
+    // Configuring CORS
+    const corsOptions = {
+        origin: ['http://127.0.0.1:8080', 'http://localhost:8080', 'http://127.0.0.1:3000', 'http://localhost:3000'],
+        credentials: true
     }
-    catch(e){
-        console.log(err);
-    }
+    app.use(cors(corsOptions))
+}
 
-    
+
+const todoRoutes = require('./api/todo/todo.routes')
+
+//routes
+app.use('/api/todo', todoRoutes)
+
+app.get('/**', (req, res) => {
+    console.log('req',req.body);
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
-app.get('/todo/complete/:id', async (req, res) => {
-    const todo = await Todo.findById(req.params.id)
-    todo.complete = !todo.complete
-    todo.save()
-    res.json(todo)
-})
 
-app.listen(3030, () => console.log('Server started on port 3030!'))
+const logger = require('./services/logger.service')
+const port = process.env.PORT || 3030
+http.listen(port, () => {
+    logger.info('Server is running on port: ' + port)
+})

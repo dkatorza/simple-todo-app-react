@@ -1,0 +1,159 @@
+09/12/2021, 18:06:30 - INFO - Server is running on port: 3030 
+09/12/2021, 18:10:55 - INFO - Server is running on port: 3030 
+09/12/2021, 18:12:14 - INFO - Server is running on port: 3030 
+09/12/2021, 18:16:12 - INFO - Server is running on port: 3030 
+09/12/2021, 18:16:42 - INFO - Server is running on port: 3030 
+09/12/2021, 18:19:25 - INFO - Server is running on port: 3030 
+09/12/2021, 18:20:27 - INFO - Server is running on port: 3030 
+09/12/2021, 18:39:23 - INFO - Server is running on port: 3030 
+09/12/2021, 18:43:49 - INFO - Server is running on port: 3030 
+09/12/2021, 18:57:24 - INFO - Server is running on port: 3030 
+09/12/2021, 18:59:40 - INFO - Server is running on port: 3030 
+09/12/2021, 19:05:17 - INFO - Server is running on port: 3030 
+09/12/2021, 19:05:50 - INFO - Server is running on port: 3030 
+09/12/2021, 19:07:33 - INFO - Server is running on port: 3030 
+09/12/2021, 19:13:09 - INFO - Server is running on port: 3030 
+09/12/2021, 19:38:34 - INFO - Server is running on port: 3030 
+09/12/2021, 19:38:43 - INFO - Server is running on port: 3030 
+09/12/2021, 19:38:53 - INFO - Server is running on port: 3030 
+09/12/2021, 19:39:02 - INFO - Server is running on port: 3030 
+09/12/2021, 19:39:30 - INFO - Server is running on port: 3030 
+09/12/2021, 19:40:34 - INFO - Server is running on port: 3030 
+09/12/2021, 19:42:47 - INFO - Server is running on port: 3030 
+09/12/2021, 19:56:22 - INFO - Server is running on port: 3030 
+09/12/2021, 19:59:44 - INFO - Server is running on port: 3030 
+09/12/2021, 20:02:26 - INFO - Server is running on port: 3030 
+09/12/2021, 20:03:43 - INFO - Server is running on port: 3030 
+09/12/2021, 20:04:01 - INFO - Server is running on port: 3030 
+09/12/2021, 20:06:13 - INFO - Server is running on port: 3030 
+09/12/2021, 20:06:43 - INFO - Server is running on port: 3030 
+09/12/2021, 20:06:53 - INFO - Server is running on port: 3030 
+09/12/2021, 20:07:09 - INFO - Server is running on port: 3030 
+09/12/2021, 20:08:20 - INFO - Server is running on port: 3030 
+09/12/2021, 20:10:57 - INFO - Server is running on port: 3030 
+09/12/2021, 20:11:03 - INFO - Server is running on port: 3030 
+09/12/2021, 20:11:17 - INFO - Server is running on port: 3030 
+09/12/2021, 20:11:30 - INFO - Server is running on port: 3030 
+09/12/2021, 20:11:40 - INFO - Server is running on port: 3030 
+09/12/2021, 20:14:53 - INFO - Server is running on port: 3030 
+09/12/2021, 20:15:21 - INFO - Server is running on port: 3030 
+09/12/2021, 20:15:56 - INFO - Server is running on port: 3030 
+09/12/2021, 20:20:20 - INFO - Server is running on port: 3030 
+09/12/2021, 20:23:16 - INFO - Server is running on port: 3030 
+09/12/2021, 20:28:12 - INFO - Server is running on port: 3030 
+09/12/2021, 20:30:21 - INFO - Server is running on port: 3030 
+09/12/2021, 20:30:31 - INFO - Server is running on port: 3030 
+09/12/2021, 20:30:36 - INFO - Server is running on port: 3030 
+09/12/2021, 20:30:43 - INFO - Server is running on port: 3030 
+09/12/2021, 20:30:45 - INFO - Server is running on port: 3030 
+09/12/2021, 20:30:50 - INFO - Server is running on port: 3030 
+09/12/2021, 20:33:39 - INFO - Server is running on port: 3030 
+09/12/2021, 20:34:16 - INFO - Server is running on port: 3030 
+09/12/2021, 23:31:06 - INFO - Server is running on port: 3030 
+09/12/2021, 23:33:17 - INFO - Server is running on port: 3030 
+09/12/2021, 23:37:42 - INFO - Server is running on port: 3030 
+09/12/2021, 23:39:21 - INFO - Server is running on port: 3030 
+09/12/2021, 23:41:01 - INFO - Server is running on port: 3030 
+09/12/2021, 23:41:23 - INFO - Server is running on port: 3030 
+09/12/2021, 23:41:45 - INFO - Server is running on port: 3030 
+09/12/2021, 23:48:28 - INFO - Server is running on port: 3030 
+09/12/2021, 23:51:27 - INFO - Server is running on port: 3030 
+09/12/2021, 23:52:43 - INFO - Server is running on port: 3030 
+09/12/2021, 23:53:41 - INFO - Server is running on port: 3030 
+09/12/2021, 23:54:17 - INFO - Server is running on port: 3030 
+09/12/2021, 23:58:47 - INFO - Server is running on port: 3030 
+09/12/2021, 23:58:51 - ERROR - cannot find todos | TypeError: dbService.find is not a function 
+09/12/2021, 23:58:51 - ERROR - Failed to get todos | TypeError: dbService.find is not a function 
+10/12/2021, 0:01:24 - INFO - Server is running on port: 3030 
+10/12/2021, 0:01:31 - ERROR - cannot find todos | ObjectParameterError: Parameter "filter" to find() must be an object, got todo 
+10/12/2021, 0:01:31 - ERROR - Failed to get todos | ObjectParameterError: Parameter "filter" to find() must be an object, got todo 
+10/12/2021, 0:02:38 - INFO - Server is running on port: 3030 
+10/12/2021, 0:02:40 - ERROR - cannot find todos | ObjectParameterError: Parameter "filter" to find() must be an object, got todo 
+10/12/2021, 0:02:40 - ERROR - Failed to get todos | ObjectParameterError: Parameter "filter" to find() must be an object, got todo 
+10/12/2021, 0:04:16 - INFO - Server is running on port: 3030 
+10/12/2021, 0:04:17 - INFO - Server is running on port: 3030 
+10/12/2021, 0:04:18 - INFO - Server is running on port: 3030 
+10/12/2021, 0:04:21 - ERROR - cannot find todos | ObjectParameterError: Parameter "filter" to find() must be an object, got todo 
+10/12/2021, 0:04:21 - ERROR - Failed to get todos | ObjectParameterError: Parameter "filter" to find() must be an object, got todo 
+10/12/2021, 0:06:43 - INFO - Server is running on port: 3030 
+10/12/2021, 0:08:21 - INFO - Server is running on port: 3030 
+10/12/2021, 0:09:00 - INFO - Server is running on port: 3030 
+10/12/2021, 0:09:23 - INFO - Server is running on port: 3030 
+10/12/2021, 0:09:35 - INFO - Server is running on port: 3030 
+10/12/2021, 0:10:29 - INFO - Server is running on port: 3030 
+10/12/2021, 0:11:05 - INFO - Server is running on port: 3030 
+10/12/2021, 0:14:47 - INFO - Server is running on port: 3030 
+10/12/2021, 0:15:57 - INFO - Server is running on port: 3030 
+10/12/2021, 0:16:25 - INFO - Server is running on port: 3030 
+10/12/2021, 0:17:59 - INFO - Server is running on port: 3030 
+10/12/2021, 0:18:22 - INFO - Server is running on port: 3030 
+10/12/2021, 0:18:24 - INFO - Server is running on port: 3030 
+10/12/2021, 0:18:28 - ERROR - cannot find todos | ReferenceError: todo is not defined 
+10/12/2021, 0:18:28 - ERROR - Failed to get todos | ReferenceError: todo is not defined 
+10/12/2021, 0:18:55 - INFO - Server is running on port: 3030 
+10/12/2021, 0:20:12 - INFO - Server is running on port: 3030 
+10/12/2021, 0:20:21 - INFO - Server is running on port: 3030 
+10/12/2021, 0:20:33 - INFO - Server is running on port: 3030 
+10/12/2021, 0:22:48 - INFO - Server is running on port: 3030 
+10/12/2021, 0:23:04 - INFO - Server is running on port: 3030 
+10/12/2021, 0:24:13 - INFO - Server is running on port: 3030 
+10/12/2021, 0:24:26 - INFO - Server is running on port: 3030 
+10/12/2021, 0:25:48 - INFO - Server is running on port: 3030 
+10/12/2021, 0:26:43 - INFO - Server is running on port: 3030 
+10/12/2021, 0:27:44 - INFO - Server is running on port: 3030 
+10/12/2021, 0:27:48 - ERROR - cannot find todos | TypeError: Cannot read property 'find' of undefined 
+10/12/2021, 0:27:48 - ERROR - Failed to get todos | TypeError: Cannot read property 'find' of undefined 
+10/12/2021, 0:30:05 - INFO - Server is running on port: 3030 
+10/12/2021, 0:30:12 - ERROR - cannot find todos | TypeError: Cannot read property 'find' of undefined 
+10/12/2021, 0:30:12 - ERROR - Failed to get todos | TypeError: Cannot read property 'find' of undefined 
+10/12/2021, 0:30:36 - INFO - Server is running on port: 3030 
+10/12/2021, 0:31:10 - INFO - Server is running on port: 3030 
+10/12/2021, 0:31:41 - INFO - Server is running on port: 3030 
+10/12/2021, 0:31:44 - INFO - Server is running on port: 3030 
+10/12/2021, 0:32:27 - INFO - Server is running on port: 3030 
+10/12/2021, 0:33:09 - INFO - Server is running on port: 3030 
+10/12/2021, 0:33:19 - INFO - Server is running on port: 3030 
+10/12/2021, 0:41:00 - INFO - Server is running on port: 3030 
+10/12/2021, 0:41:44 - INFO - Server is running on port: 3030 
+10/12/2021, 0:41:54 - INFO - Server is running on port: 3030 
+10/12/2021, 0:41:59 - INFO - Server is running on port: 3030 
+10/12/2021, 0:42:28 - INFO - Server is running on port: 3030 
+10/12/2021, 0:42:35 - INFO - Server is running on port: 3030 
+10/12/2021, 0:42:39 - ERROR - Failed to get todos | ReferenceError: todo is not defined 
+10/12/2021, 0:43:15 - INFO - Server is running on port: 3030 
+10/12/2021, 0:43:33 - INFO - Server is running on port: 3030 
+10/12/2021, 0:43:40 - INFO - Server is running on port: 3030 
+10/12/2021, 0:43:59 - INFO - Server is running on port: 3030 
+10/12/2021, 0:46:34 - INFO - Server is running on port: 3030 
+10/12/2021, 0:46:58 - INFO - Server is running on port: 3030 
+10/12/2021, 0:47:46 - INFO - Server is running on port: 3030 
+10/12/2021, 0:49:38 - INFO - Server is running on port: 3030 
+10/12/2021, 0:51:15 - INFO - Server is running on port: 3030 
+10/12/2021, 0:51:23 - INFO - Server is running on port: 3030 
+10/12/2021, 0:51:32 - INFO - Server is running on port: 3030 
+10/12/2021, 0:54:33 - INFO - Server is running on port: 3030 
+10/12/2021, 0:55:56 - INFO - Server is running on port: 3030 
+10/12/2021, 1:01:08 - INFO - Server is running on port: 3030 
+10/12/2021, 1:02:03 - INFO - Server is running on port: 3030 
+10/12/2021, 1:02:36 - INFO - Server is running on port: 3030 
+10/12/2021, 8:33:54 - INFO - Server is running on port: 3030 
+10/12/2021, 8:34:23 - INFO - Server is running on port: 3030 
+10/12/2021, 8:48:01 - INFO - Server is running on port: 3030 
+10/12/2021, 8:48:37 - INFO - Server is running on port: 3030 
+10/12/2021, 8:49:07 - ERROR - Failed to get todos | TypeError: todoService.add is not a function 
+10/12/2021, 8:49:30 - ERROR - Failed to get todos | TypeError: todoService.add is not a function 
+10/12/2021, 8:50:00 - INFO - Server is running on port: 3030 
+10/12/2021, 8:50:03 - ERROR - Failed to get todos | TypeError: todoService.add is not a function 
+10/12/2021, 8:51:12 - INFO - Server is running on port: 3030 
+10/12/2021, 8:51:20 - ERROR - cannot insert todo | ReferenceError: req is not defined 
+10/12/2021, 8:51:20 - ERROR - Failed to get todos | ReferenceError: req is not defined 
+10/12/2021, 8:52:23 - INFO - Server is running on port: 3030 
+10/12/2021, 8:52:27 - ERROR - cannot insert todo | ReferenceError: Cannot access 'todo' before initialization 
+10/12/2021, 8:52:27 - ERROR - Failed to get todos | ReferenceError: Cannot access 'todo' before initialization 
+10/12/2021, 8:52:49 - INFO - Server is running on port: 3030 
+10/12/2021, 8:52:54 - ERROR - cannot insert todo | ReferenceError: Cannot access 'todo' before initialization 
+10/12/2021, 8:52:54 - ERROR - Failed to get todos | ReferenceError: Cannot access 'todo' before initialization 
+10/12/2021, 8:53:34 - INFO - Server is running on port: 3030 
+10/12/2021, 8:55:33 - INFO - Server is running on port: 3030 
+10/12/2021, 8:58:02 - INFO - Server is running on port: 3030 
+10/12/2021, 8:59:48 - INFO - Server is running on port: 3030 
