@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react'
 import { TodoAdd } from './cmps/TodoAdd'
 import { TodoEdit } from './cmps/TodoEdit'
 import { todoService } from './services/todo.service'
+import {ReactComponent as Edit} from './assets/img/iconmonstr-pencil-14.svg';
+import {ReactComponent as Trashcan} from './assets/img/iconmonstr-trash-can-2.svg';
+
 
 function App() {
 
@@ -77,9 +80,9 @@ function App() {
             <div className='text'>{todo.text}</div>
             <div className='edit-tools'>
               <div className='edit-todo'
-                onClick={(ev) => popoverEdit(ev, todo)}>🖊</div>
+                onClick={(ev) => popoverEdit(ev, todo)}><Edit className='svg'/></div>
               <div className='delete-todo'
-                onClick={(ev) => removeTodo(ev, todo._id)}>x</div>
+                onClick={(ev) => removeTodo(ev, todo._id)}><Trashcan className='svg'/></div>
             </div>
           </div>
         ))}

@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-// ::selection {
-//     background-color: $clr1;
-//     color: $clr2;
-// }
 
 html {
     font-family: "Montserrat", sans-serif;
@@ -57,11 +53,6 @@ button {
     font-weight: 600;
     font-size: rem(16px);
     text-transform: capitalize;
-
-
-    // &:hover {
-    //     background-color: $clr5a;
-    // }
 }
 
 
@@ -80,6 +71,16 @@ button {
         color: $clr3;
         font-size: rem(14px);
         font-weight: 600;
+    }
+}
+
+.svg{
+    fill: $clr3;
+    width: 20px;
+    pointer-events: none;
+
+    &:hover{
+        fill:$clr6 ;
     }
 }
 

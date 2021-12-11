@@ -229,3 +229,44 @@
 10/12/2021, 10:57:29 - INFO - Server is running on port: 3030 
 10/12/2021, 10:59:29 - INFO - Server is running on port: 3030 
 10/12/2021, 15:37:48 - INFO - Server is running on port: 3030 
+10/12/2021, 23:15:07 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:07 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:09 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:09 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:10 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:10 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:11 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:11 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:11 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:11 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:12 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:13 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:13 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:41 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:41 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:44 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:15:44 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+10/12/2021, 23:23:23 - INFO - Server is running on port: 3030 
+10/12/2021, 23:26:12 - INFO - Server is running on port: 3030 
+11/12/2021, 0:25:05 - INFO - Server is running on port: 3030 
+11/12/2021, 0:25:43 - INFO - Server is running on port: 3030 
+11/12/2021, 0:26:43 - INFO - Server is running on port: 3030 
+11/12/2021, 0:26:50 - ERROR - Failed to update todo | Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client 
+11/12/2021, 0:26:53 - ERROR - Failed to update todo | Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client 
+11/12/2021, 0:26:54 - ERROR - Failed to update todo | Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client 
+11/12/2021, 0:26:56 - ERROR - Failed to update todo | Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client 
+11/12/2021, 0:26:57 - ERROR - Failed to update todo | Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client 
+11/12/2021, 0:26:58 - ERROR - Failed to update todo | Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client 
+11/12/2021, 0:27:54 - INFO - Server is running on port: 3030 
+11/12/2021, 0:28:20 - INFO - Server is running on port: 3030 
+11/12/2021, 0:29:13 - INFO - Server is running on port: 3030 
+11/12/2021, 17:05:32 - INFO - Server is running on port: 3030 

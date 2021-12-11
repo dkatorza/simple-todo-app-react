@@ -1,12 +1,15 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { ReactComponent as CheckMark } from '../assets/img/iconmonstr-check-mark-1.svg';
+import { ReactComponent as Xmark } from '../assets/img/iconmonstr-x-mark-1.svg';
 
 export const TodoEdit = ({ editTodo, editPos, currTodo, popover, closePopover }) => {
 
     const [todoTitle, setTodoTitle] = useState('')
-    const [placeholder, setPlaceholder] = useState('')
+    const inputEl = useRef(null);
 
     useEffect(() => {
         setTodoTitle(currTodo.text)
+        inputEl.current.focus();
     }, [currTodo])
 
     const dismissChanges = () => {
@@ -16,14 +19,13 @@ export const TodoEdit = ({ editTodo, editPos, currTodo, popover, closePopover })
 
     const onEditTodo = async () => {
         if (!todoTitle) {
-            setPlaceholder(`You must have something to do... `)
             return
-        } else {
-            currTodo.text = await todoTitle
-            popover = !popover
-            editTodo(currTodo, popover)
-            setTodoTitle('')
         }
+        currTodo.text = await todoTitle
+        popover = !popover
+        editTodo(currTodo, popover)
+        setTodoTitle('')
+
 
     }
 
@@ -36,13 +38,14 @@ export const TodoEdit = ({ editTodo, editPos, currTodo, popover, closePopover })
                 }}>
                 <div className='edit-todo-input'>
                     <input type="text"
-                        placeholder={placeholder}
                         onChange={(ev) => setTodoTitle(ev.target.value)}
-                        defaultValue={todoTitle && todoTitle}
+                        defaultValue={todoTitle}
+                        ref={inputEl}
+                        onBlur={onEditTodo}
                     />
                 </div>
-                <div className='edit-todo-save' onClick={onEditTodo}>+</div>
-                <div className='edit-todo-omit' onClick={dismissChanges}>-</div>
+                <div className='edit-todo-save' onClick={onEditTodo}><CheckMark className='svg' /></div>
+                <div className='edit-todo-omit' onClick={dismissChanges}><Xmark className='svg' /></div>
             </div>
         </>
     );

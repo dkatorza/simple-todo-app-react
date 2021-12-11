@@ -49,7 +49,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: $clr3;
             color: $clr6;
             font-size: rem(22px);
             font-weight: 600;
@@ -57,10 +56,10 @@
 
             &:hover {
                 transition: 0.2s;
-                background-color: $clr4a;
                 color: $clr3;
             }
         }
+        
 
         .edit-todo {
             width: 30px;
@@ -68,7 +67,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: $clr3;
             color: $clr6;
             font-size: rem(18px);
             font-weight: 600;
@@ -76,7 +74,6 @@
 
             &:hover {
                 transition: 0.2s;
-                background-color: $clr4a;
                 color: $clr3;
             }
         }
