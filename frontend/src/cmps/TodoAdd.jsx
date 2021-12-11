@@ -27,7 +27,7 @@ export const TodoAdd = ({addTodo}) => {
         value={newTodo}
         />
       </div>
-      <div className='todo-add-btn' onClick={onAddTodo}>+</div>
+      <div className='button' onClick={onAddTodo}>+</div>
     </div>
   );
 }

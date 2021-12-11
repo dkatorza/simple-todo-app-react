@@ -44,8 +44,8 @@ export const TodoEdit = ({ editTodo, editPos, currTodo, popover, closePopover })
                         onBlur={onEditTodo}
                     />
                 </div>
-                <div className='edit-todo-save' onClick={onEditTodo}><CheckMark className='svg' /></div>
-                <div className='edit-todo-omit' onClick={dismissChanges}><Xmark className='svg' /></div>
+                <div className='button' onClick={onEditTodo}><CheckMark className='svg' /></div>
+                <div className='button' onClick={dismissChanges}><Xmark className='svg' /></div>
             </div>
         </>
     );

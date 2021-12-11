@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { TodoAdd } from './cmps/TodoAdd'
 import { TodoEdit } from './cmps/TodoEdit'
 import { todoService } from './services/todo.service'
-import {ReactComponent as Edit} from './assets/img/iconmonstr-pencil-14.svg';
-import {ReactComponent as Trashcan} from './assets/img/iconmonstr-trash-can-2.svg';
+import { ReactComponent as Edit } from './assets/img/iconmonstr-pencil-14.svg';
+import { ReactComponent as Trashcan } from './assets/img/iconmonstr-trash-can-2.svg';
 
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
     setTodos([...todos, newTodo])
   }
 
-  const editTodo = async (todo,popover) => {
+  const editTodo = async (todo, popover) => {
     await todoService.save(todo)
     // setTodos([...todos, {todo:updatedTodo}])
     getTodos()
@@ -53,7 +53,7 @@ function App() {
     const elPos = await ev.target.getBoundingClientRect()
     setPopover(true)
     setEditPos(elPos)
-    
+
   }
 
   const closePopover = async (popover) => {
@@ -68,9 +68,8 @@ function App() {
       <div className="title">
         <TodoAdd addTodo={addTodo} />
       </div>
-
-      <div className="todos">
-        {todos.map(todo => (
+      <div className="todos scroller" >
+        {todos && todos.map(todo => (
           <div
             className={'todo   ' + (todo.complete ? 'completed' : '')}
             key={todo._id}
@@ -80,21 +79,21 @@ function App() {
             <div className='text'>{todo.text}</div>
             <div className='edit-tools'>
               <div className='edit-todo'
-                onClick={(ev) => popoverEdit(ev, todo)}><Edit className='svg'/></div>
+                onClick={(ev) => popoverEdit(ev, todo)}><Edit className='svg' /></div>
               <div className='delete-todo'
-                onClick={(ev) => removeTodo(ev, todo._id)}><Trashcan className='svg'/></div>
+                onClick={(ev) => removeTodo(ev, todo._id)}><Trashcan className='svg' /></div>
             </div>
           </div>
         ))}
       </div>
-      { popover && 
+      {popover &&
         <TodoEdit
-        editTodo={editTodo}
-        closePopover={closePopover}
-        editPos={editPos}
-        currTodo={currTodo}
-        popover = {popover}
-      />}
+          editTodo={editTodo}
+          closePopover={closePopover}
+          editPos={editPos}
+          currTodo={currTodo}
+          popover={popover}
+        />}
     </div>
   );
 }

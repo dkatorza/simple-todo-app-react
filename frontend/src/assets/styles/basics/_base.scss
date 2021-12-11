@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 html {
     font-family: "Montserrat", sans-serif;
     color: $clr1;
@@ -41,46 +40,88 @@ a {
     text-decoration: none;
 }
 
-button {
-    cursor: pointer;
-    background-color: $clr5;
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
-    color: $clr3;
-    font-family: Montserrat;
-    width: 100px;
+.button {
+    background-color: $clr4a;
+    min-width: 3rem;
+    height: 3rem;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: rem(48px);
     font-weight: 600;
-    font-size: rem(16px);
-    text-transform: capitalize;
-}
-
-
-
-
-.input-general {
-    background-color: $clr1;
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
     color: $clr3;
-    font-family: Montserrat;
-    width: 255px;
+    cursor: pointer;
 
-    &::placeholder {
-        color: $clr3;
-        font-size: rem(14px);
-        font-weight: 600;
+    &:nth-child(3){
+        margin-right: 5px;
+    }
+
+
+    &:hover {
+        background-color: $clr4;
+        transition: 0.6s;
+        transform: rotate(1turn);
     }
 }
 
-.svg{
+input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    color: $clr7;
+    font-weight: 400;
+    font-size: rem(18px);
+
+    &:focus {
+        outline: none !important;
+        border: 1px solid $clr4;
+    }
+    ///* Chrome, Firefox, Opera, Safari 10.1+ */
+    &::placeholder {
+        color: $clr7;
+        opacity: 1;
+    }
+
+    /* Internet Explorer 10-11 */
+    &:-ms-input-placeholder {
+        color: $clr7;
+    }
+
+    /* Microsoft Edge */
+    ::-ms-input-placeholder {
+        color: $clr7;
+    }
+
+    &:hover {
+        border: 1px solid $clr4;
+    }
+}
+
+.svg {
     fill: $clr3;
     width: 20px;
     pointer-events: none;
 
-    &:hover{
-        fill:$clr6 ;
+    &:hover {
+        fill: $clr6;
     }
 }
 
+.scroller {
+    &::-webkit-scrollbar {
+        width: 8px;
+       
+    }
+    &::-webkit-scrollbar-track {
+        margin-bottom: 2px;
+        background-color: $clr8;
+
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $clr4;
+
+    }
+}
