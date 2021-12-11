@@ -48,7 +48,7 @@ async function updateTodo(req, res) {
         const todo = req.body;
         console.log('todo',todo);
         const updatedTodo = await todoService.update(todo)
-        res.json(updatedTodo)
+        res.send(updatedTodo)
     } catch (err) {
         logger.error('Failed to update todo', err)
         res.status(500).send({ err: 'Failed to update todo' })

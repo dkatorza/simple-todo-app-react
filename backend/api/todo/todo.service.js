@@ -46,7 +46,6 @@ async function add(newTodo) {
 }
 
 async function update(todo) {
-    console.log('todo888',todo);
     try {
         const updatedTodo = await Todo.findByIdAndUpdate(todo._id,{$set:{...todo}})
         return updatedTodo
@@ -55,14 +54,6 @@ async function update(todo) {
         throw err
     }
 }
-
-// app.get('/todo/complete/:id', async (req, res) => {
-//     const todo = await Todo.findById(req.params.id)
-//     todo.complete = !todo.complete
-//     todo.save()
-//     res.json(todo)
-// })
-
 
 
 async function remove(todoId) {

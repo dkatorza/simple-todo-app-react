@@ -1,6 +1,7 @@
 .todos {
     display: flex;
     flex-direction: column;
+    z-index: 0;
 }
 
 .todo {
@@ -17,6 +18,7 @@
 
     &:hover {
         background-color: $clr4a;
+        transition: 0.2s;
     }
 
     &.completed {
@@ -38,21 +40,45 @@
         color: $clr3;
     }
 
-    .delete-todo {
-        width: 25px;
-        height: 20px;
+    .edit-tools {
         display: flex;
-        justify-content: center;
-        background-color: $clr3;
-        color: $clr6;
-        font-weight: 600;
-        margin-left: 10px;
 
-        &:hover {
-            transition: 0.1s;
-            width: 27px;
-            height: 22px;
+        .delete-todo {
+            width: 30px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $clr3;
+            color: $clr6;
+            font-size: rem(22px);
+            font-weight: 600;
+            margin-left: 10px;
+
+            &:hover {
+                transition: 0.2s;
+                background-color: $clr4a;
+                color: $clr3;
+            }
+        }
+
+        .edit-todo {
+            width: 30px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $clr3;
+            color: $clr6;
             font-size: rem(18px);
+            font-weight: 600;
+            margin-left: 10px;
+
+            &:hover {
+                transition: 0.2s;
+                background-color: $clr4a;
+                color: $clr3;
+            }
         }
     }
 

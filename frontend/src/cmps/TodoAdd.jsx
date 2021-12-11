@@ -3,9 +3,13 @@ import { todoService } from '../services/todo.service'
 
 export const TodoAdd = ({addTodo}) => {
   const [newTodo, setNewTodo] = useState('')
+  const [placeholder,setPlaceholder] = useState('Doing something?')
 
   const onAddTodo = async() => {
-    if (!newTodo) return
+    if (!newTodo) {
+      setPlaceholder(`You must have something to do... `)
+      return
+    } 
     const todo = {
       text:newTodo
     }
@@ -18,7 +22,7 @@ export const TodoAdd = ({addTodo}) => {
       <div className='todo-add-input'>
         <input 
         type="text" 
-        placeholder='Doing something?'
+        placeholder={placeholder}
         onChange={(ev)=> setNewTodo(ev.target.value)} 
         value={newTodo}
         />

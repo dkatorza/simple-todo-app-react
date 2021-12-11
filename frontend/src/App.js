@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react'
 import { TodoAdd } from './cmps/TodoAdd'
+import { TodoEdit } from './cmps/TodoEdit'
 import { todoService } from './services/todo.service'
 
 function App() {
 
   const [todos, setTodos] = useState([])
-  const [popupActive, setpopupActive] = useState(false)
+  const [editPos, setEditPos] = useState('')
+  const [currTodo, setCurrTodo] = useState('')
+  const [popover, setPopover] = useState(false)
 
   useEffect(() => {
     getTodos()
@@ -18,7 +21,7 @@ function App() {
 
   const completeTodo = async (todo) => {
     todo.complete = !todo.complete
-    const updatedTodo =  await todoService.save(todo)
+    const updatedTodo = await todoService.save(todo)
     // setTodos([...todos, {todo:updatedTodo}])
     getTodos()
   }
@@ -34,6 +37,26 @@ function App() {
     setTodos([...todos, newTodo])
   }
 
+  const editTodo = async (todo,popover) => {
+    await todoService.save(todo)
+    // setTodos([...todos, {todo:updatedTodo}])
+    getTodos()
+    closePopover(popover)
+  }
+
+  const popoverEdit = async (ev, todo) => {
+    ev.stopPropagation()
+    setCurrTodo(todo)
+    const elPos = await ev.target.getBoundingClientRect()
+    setPopover(true)
+    setEditPos(elPos)
+    
+  }
+
+  const closePopover = async (popover) => {
+    setPopover(popover)
+  }
+
   return (
     <div className="app-general">
       <div className="logo">
@@ -46,16 +69,29 @@ function App() {
       <div className="todos">
         {todos.map(todo => (
           <div
-            className={'todo ' + (todo.complete ? 'completed' : '')}
+            className={'todo   ' + (todo.complete ? 'completed' : '')}
             key={todo._id}
             onClick={() => completeTodo(todo)}
           >
             <div className='checkbox'></div>
             <div className='text'>{todo.text}</div>
-            <div className='delete-todo' onClick={(ev) => removeTodo(ev, todo._id)}>x</div>
+            <div className='edit-tools'>
+              <div className='edit-todo'
+                onClick={(ev) => popoverEdit(ev, todo)}>🖊</div>
+              <div className='delete-todo'
+                onClick={(ev) => removeTodo(ev, todo._id)}>x</div>
+            </div>
           </div>
         ))}
       </div>
+      { popover && 
+        <TodoEdit
+        editTodo={editTodo}
+        closePopover={closePopover}
+        editPos={editPos}
+        currTodo={currTodo}
+        popover = {popover}
+      />}
     </div>
   );
 }
