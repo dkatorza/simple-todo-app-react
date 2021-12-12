@@ -12,7 +12,6 @@ export const useForm = (initialFields, cb = () => { }) => {
     var field = target.name
     var value = target.type === 'number' ? +target.value : target.value
     setFields(prevFields => ({ ...prevFields, [field]: value }))
-    console.log(fields);
   }
 
   return [

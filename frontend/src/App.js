@@ -52,7 +52,6 @@ function App() {
   const editTodo = async (todo, popover) => {
     await todoService.save(todo)
     setTodos([...todos])
-   
     closePopover(popover)
   }
 

@@ -16,8 +16,10 @@ async function query(filterBy) {
         if (!filterBy.title) {
             filterBy.title =''
         }
-        // if ((Object.keys(filterBy).length === 0)) return {}
-        const todos = await Todo.find({'text':{ "$regex": filterBy.title, "$options": "i" } })
+        const criteria = _buildCriteria(filterBy)
+        const sortCriteria = _buildSortCriteria(filterBy)
+        const todos = await Todo.find(criteria).sort(sortCriteria)
+        console.log('tt',todos);
         return todos
     } catch (err) {
         logger.error('cannot find todos', err)
@@ -69,3 +71,21 @@ async function remove(todoId) {
     }
 }
 
+function _buildSortCriteria(filterBy) {
+    switch (filterBy.criteria) {
+        case 'created-new-to-old': return { timestamp: 'asc' }
+        case 'created-old-to-new': return { timestamp: 'desc' }
+        case 'name-a-to-z': return { text: 'asc' }
+        case 'name-z-to-a': return { text: 'desc' }
+        default: return {}
+    }
+}
+
+
+function _buildCriteria(filterBy) {
+    if ((Object.keys(filterBy).length === 0)) return {}
+    var criteria = {};
+    const regex = new RegExp(filterBy.title, 'i');
+    criteria = { text: regex }
+    return criteria
+}
