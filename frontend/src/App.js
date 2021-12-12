@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { TodoAdd } from './cmps/TodoAdd'
 import { TodoEdit } from './cmps/TodoEdit'
+import { TodoFilter } from './cmps/TodoFilter'
 import { todoService } from './services/todo.service'
 import { ReactComponent as Edit } from './assets/img/iconmonstr-pencil-14.svg';
 import { ReactComponent as Trashcan } from './assets/img/iconmonstr-trash-can-2.svg';
@@ -19,17 +20,22 @@ function App() {
     getTodos()
   }, [])
 
-  const getTodos = async () => {
-    const todos = await todoService.query()
+  const getTodos = async (filterBy) => {
+    const todos = await todoService.query(filterBy)
     setTodos(todos)
   }
 
-  const completeTodo = async (todo) => {
+  const onChangeFilter = async (filterBy) => {
+    await getTodos(filterBy)
+  };
+
+
+  const completeTodo = async (ev, todo) => {
     todo.complete = !todo.complete
-    const updatedTodo = await todoService.save(todo)
-    // setTodos([...todos, {todo:updatedTodo}])
-    getTodos()
+    await todoService.save(todo)
+    setTodos([...todos]);
   }
+
 
   const removeTodo = async (ev, id) => {
     ev.stopPropagation()
@@ -45,8 +51,8 @@ function App() {
 
   const editTodo = async (todo, popover) => {
     await todoService.save(todo)
-    // setTodos([...todos, {todo:updatedTodo}])
-    getTodos()
+    setTodos([...todos])
+   
     closePopover(popover)
   }
 
@@ -69,20 +75,23 @@ function App() {
     }
   }
 
+
+
   return (
     <div className="app-general">
       <div className="logo">
         <h1>Toodlidoo</h1>
       </div>
       <div className="title">
+        <TodoFilter onChangeFilter={onChangeFilter} />
         <TodoAdd addTodo={addTodo} />
       </div>
       <div className="todos scroller" ref={todoEl} >
-        {todos && todos.map(todo => (
+        {todos.map(todo => (
           <div
             className={'todo   ' + (todo.complete ? 'completed' : '')}
             key={todo._id}
-            onClick={() => completeTodo(todo)}
+            onClick={(ev) => completeTodo(ev, todo)}
 
           >
             <div className='checkbox'></div>

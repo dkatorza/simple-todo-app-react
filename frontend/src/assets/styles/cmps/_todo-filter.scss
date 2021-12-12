@@ -1,0 +1,11 @@
+.todo-filter-wrapper {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+
+    .todo-filter-input {
+        width: 100%;
+        background-color: $clr8;
+    }
+
+}

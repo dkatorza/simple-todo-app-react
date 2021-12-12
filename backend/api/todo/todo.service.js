@@ -11,9 +11,13 @@ module.exports = {
 }
 
 
-async function query() {
+async function query(filterBy) {
     try {
-        const todos = await Todo.find()
+        if (!filterBy.title) {
+            filterBy.title =''
+        }
+        // if ((Object.keys(filterBy).length === 0)) return {}
+        const todos = await Todo.find({'text':{ "$regex": filterBy.title, "$options": "i" } })
         return todos
     } catch (err) {
         logger.error('cannot find todos', err)
@@ -22,7 +26,6 @@ async function query() {
 }
 
 async function getById(todoId) {
-    console.log('todoId',todoId);
     try {
         const todo = await Todo.findById(todoId)
         return todo

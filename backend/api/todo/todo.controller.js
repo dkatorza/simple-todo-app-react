@@ -12,7 +12,8 @@ module.exports = {
 
 async function getTodos(req, res) {
     try {
-        const todo = await todoService.query()
+        var queryParams = req.query
+        const todo = await todoService.query(queryParams)
         res.json(todo)
     } catch (err) {
         logger.error('Failed to get todos', err)
