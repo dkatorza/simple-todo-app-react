@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { TodoAdd } from './cmps/TodoAdd'
 import { TodoEdit } from './cmps/TodoEdit'
 import { todoService } from './services/todo.service'
@@ -12,6 +12,8 @@ function App() {
   const [editPos, setEditPos] = useState('')
   const [currTodo, setCurrTodo] = useState('')
   const [popover, setPopover] = useState(false)
+  const [editTodoMargin, setEditTodoMargin] = useState(0)
+  const todoEl = useRef(null);
 
   useEffect(() => {
     getTodos()
@@ -33,6 +35,7 @@ function App() {
     ev.stopPropagation()
     const data = await todoService.remove(id)
     setTodos(todos => todos.filter(todo => todo._id !== data._id))
+    setEditTodoMargin(0)
   }
 
   const addTodo = async (todo) => {
@@ -51,13 +54,19 @@ function App() {
     ev.stopPropagation()
     setCurrTodo(todo)
     const elPos = await ev.target.getBoundingClientRect()
+    checkScrollHeight()
     setPopover(true)
     setEditPos(elPos)
-
   }
 
   const closePopover = async (popover) => {
     setPopover(popover)
+  }
+
+  const checkScrollHeight = () => {
+    if (todoEl.current.scrollHeight > 650) {
+      setEditTodoMargin(8)
+    }
   }
 
   return (
@@ -68,12 +77,13 @@ function App() {
       <div className="title">
         <TodoAdd addTodo={addTodo} />
       </div>
-      <div className="todos scroller" >
+      <div className="todos scroller" ref={todoEl} >
         {todos && todos.map(todo => (
           <div
             className={'todo   ' + (todo.complete ? 'completed' : '')}
             key={todo._id}
             onClick={() => completeTodo(todo)}
+
           >
             <div className='checkbox'></div>
             <div className='text'>{todo.text}</div>
@@ -93,6 +103,7 @@ function App() {
           editPos={editPos}
           currTodo={currTodo}
           popover={popover}
+          editTodoMargin={editTodoMargin}
         />}
     </div>
   );

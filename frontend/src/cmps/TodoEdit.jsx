@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { ReactComponent as CheckMark } from '../assets/img/iconmonstr-check-mark-1.svg';
 import { ReactComponent as Xmark } from '../assets/img/iconmonstr-x-mark-1.svg';
 
-export const TodoEdit = ({ editTodo, editPos, currTodo, popover, closePopover }) => {
+export const TodoEdit = ({ editTodo, editPos, currTodo, popover, closePopover,editTodoMargin }) => {
 
     const [todoTitle, setTodoTitle] = useState('')
     const inputEl = useRef(null);
@@ -25,8 +25,6 @@ export const TodoEdit = ({ editTodo, editPos, currTodo, popover, closePopover })
         popover = !popover
         editTodo(currTodo, popover)
         setTodoTitle('')
-
-
     }
 
     return (
@@ -34,9 +32,11 @@ export const TodoEdit = ({ editTodo, editPos, currTodo, popover, closePopover })
             <div className='edit-todo-wrapper'
                 style={{
                     top: editPos.top - 20 + 'px',
-                    left: '388px',
+                    left: editPos.left - 366 + 'px',
+                    
+                    
                 }}>
-                <div className='edit-todo-input'>
+                <div className='edit-todo-input' style={{marginLeft: editTodoMargin}}>
                     <input type="text"
                         onChange={(ev) => setTodoTitle(ev.target.value)}
                         defaultValue={todoTitle}

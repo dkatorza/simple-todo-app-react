@@ -1,7 +1,9 @@
 .edit-todo-wrapper {
     background-color: rgb(255, 255, 255);
-    width: 100%;
-    max-width: 457px;
+    width:457px;
+    min-width: 449PX;
+    // max-width: 457px;
+    // margin-inline-start: 8px;
     min-height: 65px;
     max-height: 65px;
     position: absolute;
@@ -10,6 +12,9 @@
 
     .edit-todo-input {
         width: 100%;
+        min-width: 257px;
         background-color: $clr8;
+        // width: 250PX;
+        
     }
 }
