@@ -9,9 +9,9 @@
     display: flex;
 
     @include for-mobile-layout {
-        margin-left: 6.4rem;
+        margin-left: 5.9rem;
         min-width: 245px;
-        max-width: 354px;
+        max-width: 359px;
   
     }
 
@@ -21,8 +21,9 @@
         background-color: $clr8;
 
         @include for-mobile-layout {
-            max-width: 245px;
-            min-width: 245px
+            max-width: 244px;
+            min-width: 244px;
+            margin-left: 8px !important;
         }
 
         & >input {
