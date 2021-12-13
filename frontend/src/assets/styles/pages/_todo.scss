@@ -5,6 +5,10 @@
     max-height: 650px;
     overflow-y: auto;
 
+    @include for-mobile-layout {
+        align-items: center;
+    }
+
 
     .todo {
         background-color: $clr4;
@@ -18,6 +22,12 @@
         max-height: 65px;
         margin-bottom: 5px;
         margin-right: 5px;
+
+        @include for-mobile-layout {
+            width: 350px;
+            max-width: 350px;
+            margin-right: 0;
+        }
 
         &:hover {
             background-color: $clr4a;
@@ -41,6 +51,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             color: $clr3;
+
         }
 
         .edit-tools {

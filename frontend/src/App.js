@@ -5,6 +5,7 @@ import { TodoFilter } from './cmps/TodoFilter'
 import { todoService } from './services/todo.service'
 import { ReactComponent as Edit } from './assets/img/iconmonstr-pencil-14.svg';
 import { ReactComponent as Trashcan } from './assets/img/iconmonstr-trash-can-2.svg';
+import { Footer } from './cmps/Footer'
 
 
 function App() {
@@ -113,7 +114,9 @@ function App() {
           popover={popover}
           editTodoMargin={editTodoMargin}
         />}
+      <Footer />
     </div>
+
   );
 }
 

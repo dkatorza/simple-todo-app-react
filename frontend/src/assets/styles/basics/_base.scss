@@ -5,13 +5,13 @@
 }
 
 html {
-    font-family: "Montserrat", sans-serif;
+    font-family: Kanit, sans-serif;
     color: $clr1;
 }
 
 body {
     margin: 0;
-    padding: 1rem;
+    padding: 0;
     overflow-y: hidden;
 }
 
@@ -27,7 +27,7 @@ h4,
 h5,
 h6 {
     font-weight: 400;
-    font-family: Montserrat;
+    font-family: Kanit;
     text-transform: capitalize;
 }
 
@@ -114,6 +114,11 @@ input {
 .scroller {
     &::-webkit-scrollbar {
         width: 8px;
+
+        
+    @include for-mobile-layout {
+        width:0;
+    }
        
     }
     &::-webkit-scrollbar-track {
@@ -125,4 +130,5 @@ input {
         background-color: $clr4;
 
     }
+
 }

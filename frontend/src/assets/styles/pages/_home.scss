@@ -1,12 +1,13 @@
 .logo {
     display: grid;
     justify-content: center;
-    // align-content: center;
+    align-content: center;
 
     & > h1 {
         color: $clr4;
         font-weight: 600;
         font-size: rem(50px);
+        font-family: Kanit;
     }
 }
 

@@ -3,6 +3,12 @@
     display: flex;
     justify-content: flex-end;
 
+    @include for-mobile-layout {
+        width: 100%;
+        max-width: 354px;
+         margin-left: 13px;
+    }
+
     .todo-add-input {
         width: 100%;
         background-color: $clr8;

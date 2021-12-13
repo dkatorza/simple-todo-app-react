@@ -1,5 +1,5 @@
 .app-general {
-    height: calc(100vh);
+    height: calc(97vh);
     background-color: $bgrclr;
     display: grid;
     grid-template-rows: 1fr 0fr 6fr;
@@ -15,4 +15,11 @@
         1fr
         minmax(457px, 457px)
         1fr;
+
+    @include for-mobile-layout {
+        grid-template-columns:
+            1fr
+            minmax(375px, 375px)
+            1fr;
+    }
 }

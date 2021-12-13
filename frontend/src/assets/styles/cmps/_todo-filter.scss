@@ -3,6 +3,12 @@
     display: flex;
     justify-content: flex-end;
 
+    @include for-mobile-layout {
+        width: 100%;
+        max-width: 354px;
+         margin-left: 13px;
+    }
+
     .todo-filter-input {
         width: 100%;
         background-color: $clr8;
@@ -10,7 +16,7 @@
 
     .todo-filter-select-wrapper {
         background-color: $clr4a;
-        min-width: 14rem;
+        min-width: 13rem;
         height: 3rem;
         margin-left: 5px;
         margin-right: 5px;
