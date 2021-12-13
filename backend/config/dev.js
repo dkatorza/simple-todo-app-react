@@ -1,3 +1,3 @@
 module.exports = {
-  'dbURL': "mongodb://127.0.0.1:27017/todoDB",
+  'dbURL': "mongodb+srv://dkdk:dkdk0546038877@cluster0.v2ese.mongodb.net/todoDB?retryWrites=true&w=majority",
 }
