@@ -39,7 +39,6 @@ const todoRoutes = require('./api/todo/todo.routes')
 app.use('/api/todo', todoRoutes)
 
 app.get('/**', (req, res) => {
-    console.log('req',req.body);
     res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
@@ -47,5 +46,5 @@ app.get('/**', (req, res) => {
 const logger = require('./services/logger.service')
 const port = process.env.PORT || 3030
 http.listen(port, () => {
-    logger.info('Server is running on port: ' + port)
+    logger.info(`Server is running on port: ${port}`)
 })

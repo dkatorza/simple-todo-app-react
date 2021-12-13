@@ -271,3 +271,293 @@
 11/12/2021, 0:29:13 - INFO - Server is running on port: 3030 
 11/12/2021, 17:05:32 - INFO - Server is running on port: 3030 
 12/12/2021, 8:32:02 - INFO - Server is running on port: 3030 
+12/12/2021, 16:36:20 - INFO - Server is running on port: 3030 
+12/12/2021, 16:41:22 - INFO - Server is running on port: 3030 
+12/12/2021, 16:44:29 - INFO - Server is running on port: 3030 
+12/12/2021, 16:46:31 - INFO - Server is running on port: 3030 
+12/12/2021, 17:33:21 - INFO - Server is running on port: 3030 
+12/12/2021, 17:34:03 - INFO - Server is running on port: 3030 
+12/12/2021, 17:34:57 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:34:57 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:00 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: 's' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:00 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: 's' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:01 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: 'si' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:01 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: 'si' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:04 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: 's' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:04 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: 's' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:04 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:04 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:35:26 - INFO - Server is running on port: 3030 
+12/12/2021, 17:36:23 - INFO - Server is running on port: 3030 
+12/12/2021, 17:37:15 - INFO - Server is running on port: 3030 
+12/12/2021, 17:37:19 - INFO - Server is running on port: 3030 
+12/12/2021, 17:37:44 - INFO - Server is running on port: 3030 
+12/12/2021, 17:37:46 - INFO - Server is running on port: 3030 
+12/12/2021, 17:39:31 - INFO - Server is running on port: 3030 
+12/12/2021, 17:39:39 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:39:39 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:39:40 - ERROR - cannot find todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:39:40 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:39:40 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:39:40 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:39:43 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: 's' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:39:43 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: 's' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:40:00 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:40:00 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:40:06 - INFO - Server is running on port: 3030 
+12/12/2021, 17:40:49 - INFO - Server is running on port: 3030 
+12/12/2021, 17:40:51 - ERROR - cannot find todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:40:51 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:40:51 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:40:51 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:41:09 - ERROR - cannot find todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:41:09 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:41:09 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:41:09 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:43:17 - INFO - Server is running on port: 3030 
+12/12/2021, 17:43:41 - INFO - Server is running on port: 3030 
+12/12/2021, 17:45:26 - INFO - Server is running on port: 3030 
+12/12/2021, 17:45:31 - ERROR - cannot find todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:45:31 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:45:31 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:45:31 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:45:52 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: 'z' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:45:52 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: 'z' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:45:52 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: 'zx' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:45:52 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: 'zx' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:36 - ERROR - cannot find todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:36 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:41 - ERROR - cannot find todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:41 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:46 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:46 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:48 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: 'V' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:48 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: 'V' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:49 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: 'VC' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:47:49 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: 'VC' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:48:47 - INFO - Server is running on port: 3030 
+12/12/2021, 17:50:56 - INFO - Server is running on port: 3030 
+12/12/2021, 17:50:59 - ERROR - cannot find todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:50:59 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{}" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:50:59 - ERROR - cannot find todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:50:59 - ERROR - Failed to get todos | CastError: Cast to string failed for value "{ title: '' }" (type Object) at path "text" for model "Todo" 
+12/12/2021, 17:51:51 - INFO - Server is running on port: 3030 
+12/12/2021, 17:52:13 - INFO - Server is running on port: 3030 
+12/12/2021, 17:52:15 - ERROR - cannot find todos | ReferenceError: text is not defined 
+12/12/2021, 17:52:15 - ERROR - Failed to get todos | ReferenceError: text is not defined 
+12/12/2021, 17:52:15 - ERROR - cannot find todos | ReferenceError: text is not defined 
+12/12/2021, 17:52:15 - ERROR - Failed to get todos | ReferenceError: text is not defined 
+12/12/2021, 17:52:21 - INFO - Server is running on port: 3030 
+12/12/2021, 17:52:23 - ERROR - cannot find todos | ReferenceError: S is not defined 
+12/12/2021, 17:52:23 - ERROR - Failed to get todos | ReferenceError: S is not defined 
+12/12/2021, 17:52:23 - ERROR - cannot find todos | ReferenceError: S is not defined 
+12/12/2021, 17:52:23 - ERROR - Failed to get todos | ReferenceError: S is not defined 
+12/12/2021, 17:52:29 - INFO - Server is running on port: 3030 
+12/12/2021, 17:52:31 - ERROR - cannot find todos | ReferenceError: s is not defined 
+12/12/2021, 17:52:31 - ERROR - Failed to get todos | ReferenceError: s is not defined 
+12/12/2021, 17:52:31 - ERROR - cannot find todos | ReferenceError: s is not defined 
+12/12/2021, 17:52:31 - ERROR - Failed to get todos | ReferenceError: s is not defined 
+12/12/2021, 17:52:39 - ERROR - cannot find todos | ReferenceError: s is not defined 
+12/12/2021, 17:52:39 - ERROR - Failed to get todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:10 - INFO - Server is running on port: 3030 
+12/12/2021, 17:53:12 - ERROR - cannot find todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:12 - ERROR - Failed to get todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:12 - ERROR - cannot find todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:12 - ERROR - Failed to get todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:22 - INFO - Server is running on port: 3030 
+12/12/2021, 17:53:25 - ERROR - cannot find todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:25 - ERROR - Failed to get todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:25 - ERROR - cannot find todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:25 - ERROR - Failed to get todos | ReferenceError: s is not defined 
+12/12/2021, 17:53:36 - INFO - Server is running on port: 3030 
+12/12/2021, 17:53:52 - INFO - Server is running on port: 3030 
+12/12/2021, 17:54:40 - INFO - Server is running on port: 3030 
+12/12/2021, 17:55:28 - INFO - Server is running on port: 3030 
+12/12/2021, 18:01:50 - INFO - Server is running on port: 3030 
+12/12/2021, 18:02:46 - INFO - Server is running on port: 3030 
+12/12/2021, 18:02:59 - INFO - Server is running on port: 3030 
+12/12/2021, 18:03:00 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:00 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:00 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:00 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:02 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:02 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:03 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:03 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:04 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:04 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:04 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:04 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:04 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:04 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:05 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:05 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:05 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:05 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:05 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:05 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:51 - INFO - Server is running on port: 3030 
+12/12/2021, 18:03:54 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:54 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:54 - ERROR - cannot find todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:03:54 - ERROR - Failed to get todos | Error: all() must be used after where() when called with these arguments 
+12/12/2021, 18:15:58 - INFO - Server is running on port: 3030 
+12/12/2021, 18:16:04 - ERROR - cannot find todos | Error: Can't use option with String. 
+12/12/2021, 18:16:04 - ERROR - Failed to get todos | Error: Can't use option with String. 
+12/12/2021, 18:16:13 - INFO - Server is running on port: 3030 
+12/12/2021, 18:16:15 - ERROR - cannot find todos | Error: Can't use option with String. 
+12/12/2021, 18:16:15 - ERROR - Failed to get todos | Error: Can't use option with String. 
+12/12/2021, 18:16:15 - ERROR - cannot find todos | Error: Can't use option with String. 
+12/12/2021, 18:16:15 - ERROR - Failed to get todos | Error: Can't use option with String. 
+12/12/2021, 18:16:17 - ERROR - cannot find todos | Error: Can't use option with String. 
+12/12/2021, 18:16:17 - ERROR - Failed to get todos | Error: Can't use option with String. 
+12/12/2021, 18:19:22 - INFO - Server is running on port: 3030 
+12/12/2021, 18:19:55 - INFO - Server is running on port: 3030 
+12/12/2021, 18:20:01 - INFO - Server is running on port: 3030 
+12/12/2021, 18:22:21 - INFO - Server is running on port: 3030 
+12/12/2021, 18:27:03 - INFO - Server is running on port: 3030 
+12/12/2021, 18:35:03 - INFO - Server is running on port: 3030 
+12/12/2021, 18:35:06 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:06 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:17 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:17 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:29 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:29 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:30 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:30 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:31 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:31 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:31 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:31 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:34 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:34 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:35 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:35 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:36 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:36 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:37 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:37 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:39 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:39 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:40 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:35:40 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:36:03 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:36:03 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:36:26 - INFO - Server is running on port: 3030 
+12/12/2021, 18:36:27 - INFO - Server is running on port: 3030 
+12/12/2021, 18:36:34 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:36:34 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:36:40 - INFO - Server is running on port: 3030 
+12/12/2021, 18:36:50 - INFO - Server is running on port: 3030 
+12/12/2021, 18:37:05 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:05 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:08 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:08 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:19 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:19 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:20 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:20 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:34 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:34 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:56 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:56 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:59 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:37:59 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:38:22 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:38:22 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:38:27 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:38:27 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:39:20 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:39:20 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:39:52 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:39:52 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:01 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:01 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:03 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:03 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:21 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:21 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:24 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:24 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:25 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:25 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:48 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:48 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:50 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:40:50 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:47:13 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:47:13 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:47:14 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:47:14 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:47:30 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:47:30 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:48:12 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:48:12 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:48:21 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:48:21 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:48:36 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:48:36 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:48:38 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:48:38 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:49:06 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:49:06 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:49:09 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:49:09 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:53:35 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:53:35 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:53:39 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:53:39 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:53:39 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:53:39 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:02 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:02 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:16 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:16 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:23 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:23 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:25 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:25 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:30 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:30 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:30 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:30 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:42 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:42 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:44 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:44 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:44 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:44 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:56 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:54:56 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 18:59:55 - INFO - Server is running on port: 3030 
+12/12/2021, 19:00:39 - INFO - Server is running on port: 3030 
+12/12/2021, 19:00:45 - ERROR - cannot find todos | MongoServerError: $regex has to be a string 
+12/12/2021, 19:00:45 - ERROR - Failed to get todos | MongoServerError: $regex has to be a string 
+12/12/2021, 19:01:39 - INFO - Server is running on port: 3030 
+12/12/2021, 19:02:19 - INFO - Server is running on port: 3030 
+12/12/2021, 19:03:36 - INFO - Server is running on port: 3030 
+12/12/2021, 20:07:42 - ERROR - cannot remove Todo undefined | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+12/12/2021, 20:07:42 - ERROR - Failed to remove todo | CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Todo" 
+12/12/2021, 22:49:03 - INFO - Server is running on port: 3030 
+12/12/2021, 22:58:47 - INFO - Server is running on port: 3030 
+12/12/2021, 23:00:19 - INFO - Server is running on port: 3030 
+12/12/2021, 23:00:59 - INFO - Server is running on port: 3030 
+12/12/2021, 23:02:22 - INFO - Server is running on port: 3030 
+12/12/2021, 23:02:40 - INFO - Server is running on port: 3030 
+12/12/2021, 23:03:28 - INFO - Server is running on port: 3030 
+12/12/2021, 23:03:40 - INFO - Server is running on port: 3030 
+12/12/2021, 23:03:55 - INFO - Server is running on port: 3030 
+12/12/2021, 23:07:47 - INFO - Server is running on port: 3030 
+12/12/2021, 23:08:56 - INFO - Server is running on port: 3030 
+12/12/2021, 23:11:39 - INFO - Server is running on port: 3030 
+12/12/2021, 23:12:17 - INFO - Server is running on port: 3030 
+12/12/2021, 23:12:34 - INFO - Server is running on port: 3030 
+12/12/2021, 23:13:56 - INFO - Server is running on port: 3030 
+12/12/2021, 23:15:29 - INFO - Server is running on port: 3030 
+12/12/2021, 23:16:12 - INFO - Server is running on port: 3030 
+13/12/2021, 8:18:05 - INFO - Server is running on port: 3030 
+13/12/2021, 11:54:54 - INFO - Server is running on port: 3030 
+13/12/2021, 12:01:42 - INFO - Server is running on port: 3030 
+13/12/2021, 12:05:21 - INFO - Server is running on port: 3030 
+13/12/2021, 12:06:13 - INFO - Server is running on port: 3030 
+13/12/2021, 12:06:43 - INFO - Server is running on port: 3030 
