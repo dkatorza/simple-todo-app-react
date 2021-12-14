@@ -7,7 +7,7 @@
 The good old todo app.
 
 Built for educational purposes using React.js with hooks.
-Did not used Reaux here, it was not necessary.
+Did not used Redux here, it was not necessary.
 
 <h2>Application Features</h2>
 
