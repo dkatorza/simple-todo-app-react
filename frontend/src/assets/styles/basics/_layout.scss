@@ -17,6 +17,8 @@
         1fr;
 
     @include for-mobile-layout {
+        height: calc(90vh);
+        justify-content: center;
         grid-template-columns:
             1fr
             minmax(375px, 375px)
